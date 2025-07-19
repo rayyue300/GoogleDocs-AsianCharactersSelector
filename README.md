@@ -1,4 +1,4 @@
-# Google 文件 - 亞洲字型一鍵選取
+# Google 文件 - 亞洲字元一鍵選取
 一個 Google Apps Script，用於在 Google 文件中一鍵選取所有亞洲或非亞洲字元，方便設定不同字體。
 
 ## 專案目標
