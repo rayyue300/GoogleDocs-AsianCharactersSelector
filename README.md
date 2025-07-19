@@ -1,5 +1,18 @@
 # Google 文件 - 亞洲字元一鍵選取
-一個 Google Apps Script，用於在 Google 文件中一鍵選取所有亞洲或非亞洲字元，方便設定不同字體。
+
+一個 Google Apps Script，用於在 Google 文件中一鍵選取所有亞洲或非亞洲字元，方便快速設定不同字體。
+
+---
+
+### 免責聲明 (Disclaimer)
+
+本專案為由社群開發的非官方工具，旨在擴充 Google 文件的功能。本專案及其開發者與 Google LLC 沒有任何關聯、未受其授權、也未經其認可。
+
+Google Docs™ 是 Google LLC 的註冊商標。使用此商標僅為識別目的，不代表任何形式的背書。
+
+This project is an unofficial tool developed by the community. This project and its developers are not affiliated with, authorized by, or endorsed by Google LLC. Google Docs™ is a trademark of Google LLC.
+
+---
 
 ## 專案目標
 
@@ -8,31 +21,50 @@
 ## 主要功能
 
 * **選取所有亞洲字元**：一鍵選取文件（包含內文、頁首、頁尾、註腳）中所有的 CJK 漢字、日文假名、全形符號、部首等東亞字元。
+
 * **選取所有非亞洲字元**：一鍵選取除了亞洲字元和空格以外的所有字元，包括英文字母、數字、半形標點符號等。
 
-## 安裝與使用教學
+## 安裝方式 (Installation Methods)
 
-這個指令碼需要被安裝到**每一份**您想要使用的 Google 文件中。
+您可以根據需求選擇以下任一種方式安裝。
 
-1.  **開啟 Google 文件**：前往您想要使用此功能的 Google 文件。
-2.  **進入指令碼編輯器**：點擊頂部選單的 `擴充功能` > `Apps Script`。
-3.  **複製程式碼**：前往本專案的 [`Code.gs`](https://github.com/rayyue300/GoogleDocs-AsianCharactersSelector/blob/main/Code.gs) 檔案，點擊右上角的複製按鈕，將所有程式碼複製下來。
-4.  **貼上程式碼**：回到 Apps Script 編輯器，刪除裡面原有的所有內容，然後將剛剛複製的程式碼完整貼上。
-5.  **儲存專案**：點擊上方的「儲存專案」圖示（磁碟片圖案）。
-6.  **重新載入文件**：回到您的 Google 文件分頁，**重新整理頁面**。
-7.  **開始使用**：您會在頂部選單看到一個新的項目 `一鍵選取工具`。點擊它即可開始使用。
-8.  **首次授權**：第一次執行任一功能時，Google 會要求您授權。請按照提示點擊 `繼續`，選擇您的帳戶，並點擊 `允許`。這是所有自訂指令碼的標準安全程序。
+### 方法一：從 Google Workspace Marketplace 安裝 (推薦)
 
-## 如何在多個文件中使用？
+這是最簡單方便的方式，推薦給所有使用者。安裝一次，即可在您所有的 Google 文件中使用。
 
-目前，此指令碼屬於「繫結指令碼 (Bound Script)」，它與單一文件綁定。因此，**您需要在每一份希望使用此功能的文件中，重複一次上述的安裝步驟**。
+* **狀態：** 本外掛程式目前正在 Google 官方審核中。
 
-將此工具開發成可以安裝一次、所有文件通用的「外掛程式 (Add-on)」是一個更複雜的過程，未來可能會考慮。
+* **商店連結：** `（審核通過後將在此提供連結）`
+
+### 方法二：手動安裝 (適用於開發者或進階使用者)
+
+如果您希望立即使用，或是想自行修改程式碼，可以採用手動安裝。此方法需要您在**每一份**希望使用的文件中重複操作。
+
+1. **開啟 Google 文件**：前往您想要使用此功能的 Google 文件。
+
+2. **進入指令碼編輯器**：點擊頂部選單的 `擴充功能` > `Apps Script`。
+
+3. **複製程式碼**：前往本專案的 [`Code.gs`](https://github.com/rayyue300/GoogleDocs-AsianCharactersSelector/blob/main/Code.gs) 檔案，點擊右上角的複製按鈕，將所有程式碼複製下來。
+
+4. **貼上程式碼**：回到 Apps Script 編輯器，刪除裡面原有的所有內容，然後將剛剛複製的程式碼完整貼上。
+
+5. **儲存專案**：點擊上方的「儲存專案」圖示（磁碟片圖案）。
+
+6. **重新載入文件**：回到您的 Google 文件分頁，**重新整理頁面**。
+
+7. **開始使用**：您會在頂部選單的 `擴充功能` 中看到您的外掛程式名稱。點擊它即可開始使用。
+
+8. **首次授權**：第一次執行任一功能時，Google 會要求您授權。請按照提示點擊 `繼續`，選擇您的帳戶，並點擊 `允許`。這是所有自訂指令碼的標準安全程序。
 
 ## 貢獻
 
 如果您發現任何問題 (Bug)，或是有任何功能建議，歡迎透過本專案的 [Issues](https://github.com/rayyue300/GoogleDocs-AsianCharactersSelector/issues) 功能回報，非常感謝！
 
+## 致謝 (Credits)
+
+* 本專案的核心程式碼由 Google 的大型語言模型 **Gemini 2.5 Pro** 協助編寫與除錯。
+* 專案圖示由 **Lovart.ai** AI 圖像生成工具產生。
+
 ## 授權條款 (License)
 
-本專案採用 [MIT License](https://opensource.org/licenses/MIT) 授權。
+本專案採用 [MIT License](https://github.com/rayyue300/GoogleDocs-AsianCharactersSelector/blob/main/LICENSE) 授權。
