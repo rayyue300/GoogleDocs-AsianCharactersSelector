@@ -24,6 +24,14 @@ This project is an unofficial tool developed by the community. This project and 
 
 * **選取所有非亞洲字元**：一鍵選取除了亞洲字元和空格以外的所有字元，包括英文字母、數字、半形標點符號等。
 
+### 功能預覽
+
+![選取所有亞洲字元](https://raw.githubusercontent.com/rayyue300/GoogleDocs-AsianCharactersSelector/main/images/screenshot1.png)
+
+![選取所有非亞洲字元 (英文/數字/符號)](https://raw.githubusercontent.com/rayyue300/GoogleDocs-AsianCharactersSelector/main/images/screenshot2.png)
+
+（不用懷疑，截圖裡的文章也是讓 Gemini 生成的…）
+
 ## 安裝方式 (Installation Methods)
 
 您可以根據需求選擇以下任一種方式安裝。
