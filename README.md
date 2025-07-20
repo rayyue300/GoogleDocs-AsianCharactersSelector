@@ -70,7 +70,7 @@ This project is an unofficial tool developed by the community. This project and 
 
 ## 隱私權政策 (Privacy Policy)
 
-關於本專案如何處理您的資料，請參閱我們的[**隱私權政策檔案**](https://github.com/rayyue300/GoogleDocs-AsianCharactersSelector/blob/main/PRIVACY_POLICY.md)。
+關於本專案如何處理您的資料，請參閱我們的[**隱私權政策檔案**](PRIVACY_POLICY.md)。
 
 ## 致謝 (Credits)
 
