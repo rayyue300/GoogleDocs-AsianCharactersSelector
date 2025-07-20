@@ -68,6 +68,10 @@ This project is an unofficial tool developed by the community. This project and 
 
 如果您發現任何問題 (Bug)，或是有任何功能建議，歡迎透過本專案的 [Issues](https://github.com/rayyue300/GoogleDocs-AsianCharactersSelector/issues) 功能回報，非常感謝！
 
+## 隱私權政策 (Privacy Policy)
+
+關於本專案如何處理您的資料，請參閱我們的[**隱私權政策檔案**](https://github.com/rayyue300/GoogleDocs-AsianCharactersSelector/blob/main/PRIVACY_POLICY.md)。
+
 ## 致謝 (Credits)
 
 * 本專案的核心程式碼由 Google 的大型語言模型 **Gemini 2.5 Pro** 協助編寫與除錯。
