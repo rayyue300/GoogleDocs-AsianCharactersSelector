@@ -1,12 +1,12 @@
-# Google 文件 - 亞洲字元一鍵選取
+# Google Docs™ - 亞洲字元一鍵選取
 
-一個 Google Apps Script，用於在 Google 文件中一鍵選取所有亞洲或非亞洲字元，方便快速設定不同字體。
+一個 Google Apps Script，用於在 Google Docs™ 中一鍵選取所有亞洲或非亞洲字元，方便快速設定不同字體。
 
 ---
 
 ### 免責聲明 (Disclaimer)
 
-本專案為由社群開發的非官方工具，旨在擴充 Google 文件的功能。本專案及其開發者與 Google LLC 沒有任何關聯、未受其授權、也未經其認可。
+本專案為由社群開發的非官方工具，旨在擴充 Google Docs™ 的功能。本專案及其開發者與 Google LLC 沒有任何關聯、未受其授權、也未經其認可。
 
 Google Docs™ 是 Google LLC 的註冊商標。使用此商標僅為識別目的，不代表任何形式的背書。
 
@@ -36,7 +36,7 @@ This project is an unofficial tool developed by the community. This project and 
 
 您可以根據需求選擇以下任一種方式安裝。
 
-### 方法一：從 Google Workspace Marketplace 安裝 (推薦)
+### 方法一：從 Google Workspace™ Marketplace 安裝 (推薦)
 
 這是最簡單方便的方式，推薦給所有使用者。安裝一次，即可在您所有的 Google 文件中使用。
 
@@ -48,7 +48,7 @@ This project is an unofficial tool developed by the community. This project and 
 
 如果您希望立即使用，或是想自行修改程式碼，可以採用手動安裝。此方法需要您在**每一份**希望使用的文件中重複操作。
 
-1. **開啟 Google 文件**：前往您想要使用此功能的 Google 文件。
+1. **開啟 Google Docs™**：前往您想要使用此功能的 Google Docs™ 文件。
 
 2. **進入指令碼編輯器**：點擊頂部選單的 `擴充功能` > `Apps Script`。
 
@@ -58,11 +58,11 @@ This project is an unofficial tool developed by the community. This project and 
 
 5. **儲存專案**：點擊上方的「儲存專案」圖示（磁碟片圖案）。
 
-6. **重新載入文件**：回到您的 Google 文件分頁，**重新整理頁面**。
+6. **重新載入文件**：回到您的 Google Docs™ 分頁，**重新整理頁面**。
 
 7. **開始使用**：您會在頂部選單的 `擴充功能` 中看到您的外掛程式名稱。點擊它即可開始使用。
 
-8. **首次授權**：第一次執行任一功能時，Google 會要求您授權。請按照提示點擊 `繼續`，選擇您的帳戶，並點擊 `允許`。這是所有自訂指令碼的標準安全程序。
+8. **首次授權**：第一次執行任一功能時，Google™ 會要求您授權。請按照提示點擊 `繼續`，選擇您的帳戶，並點擊 `允許`。這是所有自訂指令碼的標準安全程序。
 
 ## 貢獻
 
@@ -74,7 +74,7 @@ This project is an unofficial tool developed by the community. This project and 
 
 ## 致謝 (Credits)
 
-* 本專案的核心程式碼由 Google 的大型語言模型 **Gemini 2.5 Pro** 協助編寫與除錯。
+* 本專案的核心程式碼由 Google™ 的大型語言模型 **Gemini 2.5 Pro** 協助編寫與除錯。
 * 專案圖示由 **Lovart.ai** AI 圖像生成工具產生。
 
 ## 授權條款 (License)
